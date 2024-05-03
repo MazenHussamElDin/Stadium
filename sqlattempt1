@@ -1,0 +1,9 @@
+SELECT Gameid
+FROM Game
+WHERE Game.date < '2025-04-04' and Game.date > '2023-04-04'
+
+Select TicketNumber, fanID 
+
+FROM Ticket
+
+WHERE FanID = '123'
